@@ -1,0 +1,53 @@
+.cardItem {
+  width: 250px;
+  background-color: rgb(250, 250, 250);
+  color: blueviolet;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+
+  &:nth-child(1) {
+    background-color: rgb(67, 197, 186);
+  }
+
+  &:nth-child(2) {
+    background-color: rgb(89, 184, 102);
+  }
+
+  &:nth-child(3) {
+    background-color: rgb(255, 116, 116);
+  }
+
+  &:nth-child(4) {
+    background-color: rgb(59, 59, 59);
+  }
+
+  .cardTitle {
+    padding: 0.8rem;
+    border-bottom: 1px solid white;
+    font-weight: 700;
+  }
+
+  .cardPrice {
+    padding: 3rem 0;
+    border-bottom: 1px solid white;
+  }
+
+  .cardSpeed {
+    padding: 1rem 0;
+    border-bottom: 1px solid white;
+  }
+
+  .description {
+    padding: 2rem 0.8rem;
+    font-size: 1.2rem;;
+  }
+
+  
+}
+
+.selected {
+  transform: scale(1.03);
+  box-shadow: 0px 0px 5px gray;
+}
